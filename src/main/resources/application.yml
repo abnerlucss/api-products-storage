@@ -11,6 +11,6 @@ spring:
     initialization-mode: always
     initialize: true
     continue-on-error: true
-
-server:
-  port: ${PORT:5000}
+#
+#server:
+#  port: ${PORT:5000}
