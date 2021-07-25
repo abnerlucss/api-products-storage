@@ -1,16 +1,8 @@
 spring:
   jpa:
     hibernate:
-      dialect: org.hibernate.dialect.PostgreSQLDialect
       ddl-auto: none
-      show-sql: true
   datasource:
-    url: jdbc:postgresql://ec2-52-45-179-101.compute-1.amazonaws.com/df57jiv3sar0vt
-    username: bnkehzmikbwpat
-    password: 7fcda5ba79a2bb015a448a8aafc8601ebc509513307e2899813282e843103729
-    initialization-mode: always
-    initialize: true
-    continue-on-error: true
-
-server:
-  port: ${PORT:5000}
+    url: jdbc:postgresql://localhost:5432/posgres
+    username: postgres
+    password: teste123
