@@ -1,0 +1,12 @@
+spring:
+  profiles: prod
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:postgresql://ec2-44-194-112-166.compute-1.amazonaws.com:5432/dc5ihd2f7tiq8i
+    username: qtzbcazcyrihid
+    password: 39107f9f73028eb24388b23e1df6e30ad689811883e64271b42c03bed656e5f3
+
+server:
+  port: ${PORT:80}
